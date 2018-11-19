@@ -17,22 +17,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.rentalhomes.com/')
 
-WebUI.setText(findTestObject('Object Repository/test1-or/Page_Holiday Homes  Vacation Rental/input_At one of our 10 million'), 
-    'Dhaka, Bangladesh')
-
-Thread.sleep(2000)
-
-WebUI.rightClick(findTestObject('Object Repository/test1-or/Page_Holiday Homes  Vacation Rental/input_Close X_home-page-search'))
-
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('Object Repository/test1-or/Page_Holiday Homes  Vacation Rental/input_Close X_home-page-search'))
-
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('Object Repository/test1-or/Page_Holiday Homes  Vacation Rental/input_Close X_home-page-search'))
-
-Thread.sleep(2000)
-
 WebUI.closeBrowser()
 
